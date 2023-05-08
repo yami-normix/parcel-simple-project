@@ -7,7 +7,7 @@ const main = async () => {
 
     const output = products?.map((product) => {
         return `
-        <artcicle class="card">
+        <artcicle class="Card">
             <img src="${product.images[0]}" alt="${product.title}" />
             <h2>${product.title} <small>Precio $ ${product.price}</small> 
             </h2>
