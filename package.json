@@ -5,12 +5,14 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel serve --port 8080 src/index.html",
-    "build": "parcel build src/index.html --public-url ./"
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "parcel": "^2.8.3",
     "posthtml-include": "^1.7.4"
   }
